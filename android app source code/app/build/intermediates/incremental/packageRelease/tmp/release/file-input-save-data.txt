@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Mon Nov 02 12:15:59 IST 2020
+0.baseType=DIRECTORY
+0.base=C\:\\Users\\Shivam Tandon\\Desktop\\My Android Projects\\ESP8266WifiCommunication\\ESP8266WifiCommunication\\app\\build\\intermediates\\transforms\\dexMerger\\release\\0
+0.path=classes.dex
+0.set=DEX
+count=1

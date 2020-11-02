@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="1">
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:textAlignment="center"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/sw1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="SWITCH 1"
+            android:background="@null"
+            android:focusable="false"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/SWITCH_1_ON"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:textStyle="bold"
+            android:text="ON"
+            tools:ignore="ButtonStyle"
+            android:onClick="Switch_1_click"
+            android:background="@color/lgray"/>
+        <Button
+            android:id="@+id/SWITCH_1_OFF"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:text="OFF"
+            android:textStyle="bold"
+            tools:ignore="ButtonStyle"
+            android:onClick="Switch_1_click"
+            android:background="@color/lgray"/>
+
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/sw2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="SWITCH 2"
+            android:background="@null"
+            android:focusable="false"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/SWITCH_2_ON"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:textStyle="bold"
+            android:text="ON"
+            tools:ignore="ButtonStyle"
+            android:background="@color/lgray"
+            android:onClick="Switch_2_click"/>
+        <Button
+            android:id="@+id/SWITCH_2_OFF"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:text="OFF"
+            android:textStyle="bold"
+            tools:ignore="ButtonStyle"
+            android:background="@color/lgray"
+            android:onClick="Switch_2_click"/>
+
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/sw3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="SWITCH 3"
+            android:focusable="false"
+            android:background="@null"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/SWITCH_3_ON"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:textStyle="bold"
+            android:text="ON"
+            tools:ignore="ButtonStyle"
+            android:background="@color/lgray"
+            android:onClick="Switch_3_click"/>
+        <Button
+            android:id="@+id/SWITCH_3_OFF"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:text="OFF"
+            android:textStyle="bold"
+            tools:ignore="ButtonStyle"
+            android:background="@color/lgray"
+            android:onClick="Switch_3_click"/>
+
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/sw4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="SWITCH 4"
+            android:focusable="false"
+            android:background="@null"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/SWITCH_4_ON"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:textStyle="bold"
+            android:text="ON"
+            tools:ignore="ButtonStyle"
+            android:background="@color/lgray"
+            android:onClick="Switch_4_click"/>
+        <Button
+            android:id="@+id/SWITCH_4_OFF"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:text="OFF"
+            android:textStyle="bold"
+            tools:ignore="ButtonStyle"
+            android:background="@color/lgray"
+            android:onClick="Switch_4_click"/>
+
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/sw5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="SWITCH 5"
+            android:focusable="false"
+            android:background="@null"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/SWITCH_5_ON"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:textStyle="bold"
+            android:text="ON"
+            tools:ignore="ButtonStyle"
+            android:background="@color/lgray"
+            android:onClick="Switch_5_click"/>
+        <Button
+            android:id="@+id/SWITCH_5_OFF"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:text="OFF"
+            android:textStyle="bold"
+            tools:ignore="ButtonStyle"
+            android:background="@color/lgray"
+            android:onClick="Switch_5_click"/>
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/sw6"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="SWITCH 6"
+            android:focusable="false"
+            android:background="@null"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/SWITCH_6_ON"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:textStyle="bold"
+            android:text="ON"
+            tools:ignore="ButtonStyle"
+            android:background="@color/lgray"
+            android:onClick="Switch_6_click"/>
+        <Button
+            android:id="@+id/SWITCH_6_OFF"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:text="OFF"
+            android:textStyle="bold"
+            tools:ignore="ButtonStyle"
+            android:background="@color/lgray"
+            android:onClick="Switch_6_click"/>
+
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/sw7"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="SWITCH 7"
+            android:focusable="false"
+            android:background="@null"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/SWITCH_7_ON"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:textStyle="bold"
+            android:text="ON"
+            tools:ignore="ButtonStyle"
+            android:background="@color/lgray"
+            android:onClick="Switch_7_click"/>
+        <Button
+            android:id="@+id/SWITCH_7_OFF"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:text="OFF"
+            android:textStyle="bold"
+            tools:ignore="ButtonStyle"
+            android:background="@color/lgray"
+            android:onClick="Switch_7_click"/>
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/sw8"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="SWITCH 8"
+            android:focusable="false"
+            android:background="@null"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/SWITCH_8_ON"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:textStyle="bold"
+            android:text="ON"
+            tools:ignore="ButtonStyle"
+            android:background="@color/lgray"
+            android:onClick="Switch_8_click"/>
+        <Button
+            android:id="@+id/SWITCH_8_OFF"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:text="OFF"
+            android:textStyle="bold"
+            tools:ignore="ButtonStyle"
+            android:background="@color/lgray"
+            android:onClick="Switch_8_click"/>
+
+    </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="45dp" />
+
+
+    </GridLayout>
+
+
+</ScrollView>

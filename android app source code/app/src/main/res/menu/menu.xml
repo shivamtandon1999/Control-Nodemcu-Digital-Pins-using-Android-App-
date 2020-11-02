@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/edtb1" android:title="Edit Buton 1"></item>
+    <item android:id="@+id/edtb2" android:title="Edit Buton 2"></item>
+    <item android:id="@+id/edtb3" android:title="Edit Buton 3"></item>
+    <item android:id="@+id/edtb4" android:title="Edit Buton 4"></item>
+    <item android:id="@+id/edtb5" android:title="Edit Buton 5"></item>
+    <item android:id="@+id/edtb6" android:title="Edit Buton 6"></item>
+    <item android:id="@+id/edtb7" android:title="Edit Buton 7"></item>
+    <item android:id="@+id/edtb8" android:title="Edit Buton 8"></item>
+
+
+</menu>
